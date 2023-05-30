@@ -15,7 +15,15 @@ password=abcd123
 #Advantage is if we change in one place that impacts all the places where that value is used.
 
 a=10
-echo value of a is $A
+echo value of a is $a
 
 #alternaively variables also accesed by using ${a}
 echo value of a is ${a}dollers
+
+#**Special Variables for inputs  :**
+#special variables used for inputs are $0 to $n,  $* , $#
+echo $0
+echo $1
+echo $*
+echo $#
+
