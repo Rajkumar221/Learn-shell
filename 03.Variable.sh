@@ -27,3 +27,10 @@ echo $1
 echo $*
 echo $#
 
+
+
+name = "Rajkumar"
+echo $name
+
+age = "23"
+echo $age
