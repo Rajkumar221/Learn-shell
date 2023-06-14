@@ -19,9 +19,9 @@ echo -e "\e[36mHello in Cyan Color\e[0m"
 #using read command
 
 echo "what is your name"
-read $PERSON
+read PERSON
 echo "hello, $PERSON"
 
 echo "what is your age"
-read $age
+read age
 echo "your age, $age"
