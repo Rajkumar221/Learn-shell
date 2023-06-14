@@ -29,8 +29,12 @@ echo $#
 
 
 
-name = "Rajkumar"
+
+
+# Some examples 
+
+name=Rajkumar
 echo $name
 
-age = "23"
+age=23s
 echo $age
