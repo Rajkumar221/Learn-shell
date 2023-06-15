@@ -14,7 +14,7 @@ fi
 
 fruit="apple"
 
-Case $fruit in
+case $fruit in
     "apple")
         echo "it's an apple"
          ;;
