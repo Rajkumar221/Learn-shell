@@ -37,3 +37,18 @@ greet() {
     local message="Hello, world!"
     echo $message
 }
+
+# recursive function
+
+factorial() {
+    if [ $1 -eq 0 ]
+    then
+        echo 1
+    else
+        local subfactorial=$(( $1 - 1 ))
+        local result=$(factorial $subfactorial)
+        echo $(( $result * $1 ))
+    fi
+}
+
+factorial 5
