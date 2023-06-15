@@ -36,5 +36,5 @@ echo $#
 name=Rajkumar
 echo $name
 
-age=23s
+age=23
 echo $age
