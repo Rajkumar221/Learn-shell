@@ -12,3 +12,10 @@ print_arguments() {
 }
 
 print-arguments ABC 123 XYZ
+
+
+greet() {
+    echo "hello, $1"
+}
+
+greet "Rajkumar"
