@@ -27,10 +27,17 @@ case $fruit in
 esac
 
 # for loop 
-
+#example 1
 fruits=("apple" "banana" "orange")
 
 for fruit in "${fruits[@]}"
 do
     echo "I like $fruit"
+done
+
+# example 2
+cars=("Benz" "maruthi" "audi")
+for car in cars "${cars[1]}"
+do 
+    echo "I like $car"
 done
