@@ -53,8 +53,21 @@ done
 
 # Until loop
 
-until [ $count -gt 5]
-do 
-    echo "count: $count"
-    count=$((count+1))
+#until [ $count -gt 5 ]
+#do 
+ #   echo "count: $count"
+ #   count=$((count+1))
+#done
+
+# braek and continue
+
+for num in {1..10}
+do
+    if [ $num -eq 5 ]
+    then
+        break 
+    fi
+    echo "Number: $num"
 done
+    
+    
