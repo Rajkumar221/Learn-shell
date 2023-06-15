@@ -15,3 +15,10 @@ while read line
 do 
     echo $line
 done < 01.Sample.sh
+
+#string manipulations
+
+name="Rajkumar"
+surname="Somishetty"
+
+full_name=($name $surname)
