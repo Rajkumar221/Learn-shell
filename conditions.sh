@@ -12,7 +12,7 @@ fi
 
 # Case Statement
 
-fruit="apple"
+fruit="banana"
 
 case $fruit in
     "apple")
