@@ -9,3 +9,19 @@ then
 else
     echo "You are a minor."
 fi
+
+# Case Statement
+
+fruit="apple"
+
+Case $fruit in
+    "apple")
+        echo "it's an apple"
+         ;;
+    "banana")
+        echo "it's a banana"
+        ;;
+    *)
+        echo "it's something else"
+        ;;
+esac
