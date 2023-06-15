@@ -17,9 +17,15 @@ do
 done < 01.Sample.sh
 
 #string manipulations
+# Concatenating Strings
 
 name="Rajkumar"
 surname="Somishetty"
 
 full_name="$name $surname"
 echo $full_name
+
+# String Length
+name="Rajkumar"
+lenght=${#name}
+echo "Lenght: $lenght"
