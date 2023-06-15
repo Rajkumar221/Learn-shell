@@ -41,3 +41,12 @@ for car in cars "${cars[1]}"
 do 
     echo "I like $car"
 done
+
+# While loop
+count=1
+
+while count(1 -le 5)
+do
+    echo "count: $count"
+    count=$((count+1))
+done
