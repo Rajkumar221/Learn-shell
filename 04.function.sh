@@ -11,7 +11,7 @@ print_arguments() {
     echo No of arguments $#
 }
 
-print-arguments ABC 123 XYZ
+print_arguments ABC 123 XYZ
 
 
 greet() {
