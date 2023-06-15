@@ -72,11 +72,11 @@ done
     
     
 
-for num in  {1..5}
+for number in  {1..5}
 do
-    if [ $num -eq 3 ]
+    if [ $number -eq 3 ]
     then
         continue
     fi
-    echo "Number: $num"
+    echo "Number: $number"
 done
