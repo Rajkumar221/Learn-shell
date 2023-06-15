@@ -21,5 +21,5 @@ done < 01.Sample.sh
 name="Rajkumar"
 surname="Somishetty"
 
-full_name=($name$surname)
+full_name="$name $surname"
 echo $full_name
