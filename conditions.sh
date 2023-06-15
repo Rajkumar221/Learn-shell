@@ -63,7 +63,7 @@ done
 
 for num in {1..10}
 do
-    if [ $num -eq 5 ]
+    if [ $num -le 5 ]
     then
         break 
     fi
