@@ -25,3 +25,12 @@ case $fruit in
         echo "it's something else"
         ;;
 esac
+
+# for loop 
+
+fruits=("apple" "banana" "orange")
+
+for fruit in "${fruits[@]}"
+do
+    echo "I like $fruit"
+done
