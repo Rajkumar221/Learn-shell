@@ -26,3 +26,5 @@ add() {
     local result=$(($1 + $2))
     return $result
 }
+
+add 5 4
