@@ -72,11 +72,11 @@ done
     
     
 
-for number in  {1..5}
-do
-    if [ $number -eq 3 ]
-    then
-        continue
-    fi
-    echo "Number: $number"
-done
+# for number in  {1..5}
+# do
+#     if [ $number -eq 3 ]
+#     then
+#         continue
+#     fi
+#     echo "Number: $number"
+# done
