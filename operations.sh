@@ -22,3 +22,4 @@ name="Rajkumar"
 surname="Somishetty"
 
 full_name=($name $surname)
+echo $full_name
