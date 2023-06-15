@@ -33,7 +33,7 @@ echo "sum: $?"
 
 #local keyword to explicitly declare local variables within a function
 
-grreting() {
-    local message="Hellow world!"
+greet() {
+    local message="Hello, world!"
     echo $message
 }
