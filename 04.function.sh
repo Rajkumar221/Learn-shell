@@ -29,3 +29,4 @@ add() {
 
 
 add 5 4
+echo "sum: $?"
