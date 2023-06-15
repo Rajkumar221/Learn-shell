@@ -23,7 +23,7 @@ greet "Rajkumar"
 # Returning functions
 
 add() {
-    local result=$(($1 + $2))
+    local result=$(( $1 + $2 ))
     return $result
 }
 
