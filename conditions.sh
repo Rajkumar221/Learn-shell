@@ -45,7 +45,7 @@ done
 # While loop
 count=1
 
-while count[$count -le 5]
+while count [ $count -le 5 ]s
 do
     echo "count: $count"
     count=$((count+1))
