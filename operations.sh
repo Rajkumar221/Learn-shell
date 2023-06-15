@@ -7,11 +7,11 @@ else
 fi
 
 # To read the contents of a file, you can use the cat command followed by the file name.
-cat 01.sample.sh
+cat 01.Sample.sh
 
 # You can also read the contents of a file line by line using a loop:
 
 while read line 
 do 
     echo $line
-done < 01.sample.sh
+done < 01.Sample.sh
