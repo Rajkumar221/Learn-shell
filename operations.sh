@@ -29,3 +29,20 @@ echo $full_name
 name="Rajkumar"
 lenght=${#name}
 echo "Lenght: $lenght"
+
+# Substring Extraction
+sentence="Hello, world!"
+substring=${sentence:7:5}
+echo "Substring: $substring"
+
+# String Comparision
+name1="John"
+name2="John"
+
+if [ $name1 = $name2 ]
+then
+    echo "Names are equal."
+else
+    echo "Names are not equal."
+fi
+
