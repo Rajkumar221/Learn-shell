@@ -25,3 +25,7 @@ echo "hello, $PERSON"
 echo "what is your age"
 read age
 echo "your age, $age"
+
+echo "what is your name"
+read PERSON
+echo "hellow, $PERSON"
